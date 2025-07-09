@@ -1,73 +1,40 @@
-# Welcome to your Lovable project
+# 📈 chart-whisper-predict
 
-## Project info
+Predict simple stock prices using historical data and visualize them with a clean line chart.  
+This is a **beginner-friendly project to learn time series basics** (using Moving Average & simple Linear Regression) — **not for real financial decisions.**
 
-**URL**: https://lovable.dev/projects/9c9e4c43-cb82-4332-a158-84404129f255
+🚀 **[Live Demo](https://chart-whisper-predict.vercel.app/)**  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+✅ Fetches historical stock price data (or uses sample CSV if offline)  
+✅ Predicts the next day’s price using:
+- Simple Moving Average (SMA)
+- Simple Linear Regression
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9c9e4c43-cb82-4332-a158-84404129f255) and start prompting.
+✅ Interactive line chart showing:
+- Actual prices
+- Predicted next price
 
-Changes made via Lovable will be committed automatically to this repo.
+✅ Clean UI to explore learning how simple prediction models behave.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Python** (for basic data processing & prediction logic)
+- **Pandas, NumPy, Scikit-Learn** (data wrangling & regression)
+- **Matplotlib / Plotly / Chart.js** (for line plots — adjust as per your project)
+- **Vercel** (for deploying the frontend demo)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📥 Clone the repo
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9c9e4c43-cb82-4332-a158-84404129f255) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone https://github.com/your-username/chart-whisper-predict.git
+cd chart-whisper-predict
