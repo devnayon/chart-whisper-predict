@@ -96,16 +96,16 @@ export function generateMockStockData(symbol: string, days: number = 30): StockD
 
 function getBasePriceForSymbol(symbol: string): number {
   const basePrices: { [key: string]: number } = {
-    'AAPL': 230,
-    'GOOGL': 175,
-    'MSFT': 420,
-    'TSLA': 240,
-    'AMZN': 185,
-    'META': 730,
-    'NVDA': 140,
-    'NFLX': 690,
-    'AMD': 140,
-    'INTC': 22
+    'AAPL': 220,
+    'GOOGL': 170,
+    'MSFT': 410,
+    'TSLA': 180,
+    'AMZN': 170,
+    'META': 725,
+    'NVDA': 130,
+    'NFLX': 480,
+    'AMD': 130,
+    'INTC': 24
   };
   
   return basePrices[symbol] || 100 + Math.random() * 200;
